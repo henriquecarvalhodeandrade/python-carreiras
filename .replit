@@ -23,7 +23,7 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "python3 app.py"
+args = "python main.py"
 waitForPort = 5000
 
 [workflows.workflow.metadata]
