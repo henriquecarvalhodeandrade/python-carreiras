@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carreiras - Python Carreiras</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Python Carreiras</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/carreiras">Carreiras</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Carreiras Disponíveis</h2>
+        <div class="careers-grid">
+            {% for career in careers %}
+            <div class="career-card">
+                <h3>{{ career.title }}</h3>
+                <p>{{ career.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Python Carreiras</p>
+    </footer>
+</body>
+</html>
