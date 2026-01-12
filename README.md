@@ -14,6 +14,7 @@ Um projeto web simples desenvolvido em Python com Flask para explorar diferentes
 - **Home**: Página inicial com uma visão geral do projeto.
 - **Explorar Carreiras**: Listagem de diversas áreas de atuação (Desenvolvedor Web, Cientista de Dados, DevOps, etc).
 - **Design Responsivo**: Interface adaptável para dispositivos móveis e desktop.
+- **Api Endpoint**: Inclua "/lista_carreiras" na url da página home para acessar o endpoint da api.
 
 ## 🛠️ Como Executar
 
@@ -27,6 +28,8 @@ Um projeto web simples desenvolvido em Python com Flask para explorar diferentes
    python main.py
    ```
 4. O app estará disponível em `http://0.0.0.0:5000`.
+5. Ou acesse: https://python-carreiras-s9i1.onrender.com/
+
 
 ## 📂 Estrutura do Projeto
 
